@@ -26,7 +26,7 @@ module.exports = {
     'guard-for-in': 1,
     'no-caller': 2,
     'no-else-return': 1,
-    'no-empty-label': 2,
+    'no-labels': [2, { 'allowLoop': true }],
     'no-eval': 2,
     'no-extend-native': 2,
     'no-extra-bind': 2,
