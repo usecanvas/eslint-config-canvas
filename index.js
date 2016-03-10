@@ -24,6 +24,8 @@ module.exports = {
     'dot-location': [2, 'property'],
     'eqeqeq': 2,
     'guard-for-in': 1,
+    'max-len': [2, 80, 4,
+      { 'ignoreUrls': true, 'ignoreTrailingComments': true }],
     'no-caller': 2,
     'no-else-return': 1,
     'no-labels': [2, { 'allowLoop': true }],
