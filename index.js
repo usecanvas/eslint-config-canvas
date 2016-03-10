@@ -45,6 +45,7 @@ module.exports = {
     'no-return-assign': 1,
     'no-sequences': 2,
     'no-throw-literal': 2,
+    'no-trailing-spaces': 2,
     'no-undef': 2,
     'no-unused-expressions': 2,
     'no-unused-vars': 2,
