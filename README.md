@@ -12,3 +12,9 @@ In project's `.eslintrc`:
   "extends": "canvas"
 }
 ```
+
+## Build
+
+```sh
+npm run build
+```

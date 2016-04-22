@@ -1,9 +1,10 @@
 {
   "name": "eslint-config-canvas",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "ESLint config for Canvas projects",
   "main": "index.js",
   "scripts": {
+    "build": "echo \"module.exports = $(cat index.yaml | yaml2json -p -);\" > index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/usecanvas/eslint-config-canvas/issues"
   },
-  "homepage": "https://github.com/usecanvas/eslint-config-canvas#readme"
+  "homepage": "https://github.com/usecanvas/eslint-config-canvas#readme",
+  "devDependencies": {
+    "yamljs": "^0.2.7"
+  }
 }
